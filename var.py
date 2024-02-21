@@ -5,7 +5,6 @@
 variables = "Starting Python Variables..."
 print(variables)
 
-
 x = 15
 # print(x)
 
@@ -63,6 +62,24 @@ add = num1 + num2
 # print(num1 - num2)
 # print(str1 - str2) # TypeError
 
+#__________________________________________________________________________________________________
+# Assigning Variables with Functions
 
+# Custom function
+def func(x, y):
+    return x * y
+
+# for vars: refer to lines 50 and 51
+
+# result = func(num1, num2)
+
+# print(result)
+
+#------------------------
+# Lambda
+
+# anonResult = lambda k: k + 10
+
+# print(anonResult(5))
 
 
